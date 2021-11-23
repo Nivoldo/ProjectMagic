@@ -1,0 +1,79 @@
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FA5E37;
+}
+.login{
+    position:absolute;
+    right:0;
+    min-height: 100vh;
+    width: 33vw;
+    background-color: #1A1A1A;
+    padding: 2rem;
+    padding-top: 10vh;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+}
+.logo{
+    margin-bottom: 5vh !important;
+    margin-top: 0px !important;
+    margin: auto;
+    height: 120px;
+    width: 300px;
+}
+.tabs{
+    margin-bottom: 2vh;
+    
+}
+.tab-active{
+    width:50%;
+    height: 50px;
+    background-color: #fff !important;
+    color: #3f3f3f !important;
+    padding: 10px !important;
+    text-align: center !important;
+    border-bottom: #fa5e37 solid 3px !important;
+    cursor: pointer!important;
+    text-decoration: none;
+}
+.tab-active:hover{
+    color: #3f3f3f !important;
+}
+.tab-disabled{
+    width:50%;
+    height: 50px;
+    background-color: #c6c6c6 !important;
+    color:#3f3f3f !important;
+    padding: 10px !important;
+    text-align: center !important;
+    border-bottom: #7a7a7a solid 3px !important;
+    cursor: pointer !important;
+    text-decoration: none;
+    margin-top: -1px;
+}
+.tab-disabled:hover{
+    background-color: #d3d3d3 !important;
+    color:#5f5f5f !important;
+    border-bottom: #858585 solid 3px !important;
+}
+
+
+.social-text{
+    font-size: 1rem;
+    color: #fff;
+}
+.btn-submit{
+    background-color: #fa5e37 !important;
+    border: solid 1px #c53916 !important;
+}
+.btn-facebook{
+    height: 3.3rem;
+    margin-right: 5px;
+    background-color: #3b5998 !important;
+    border: solid 1px #192c55 !important;
+}
+.btn-google{
+    height: 3.1rem;
+    margin-top: 2px !important;
+}
